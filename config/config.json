@@ -1,0 +1,37 @@
+{
+  "site": {
+    "title": "Sutton Central Mosque",
+    "base_url": "/",
+    "favicon": "https://d3owavb6pntfxw.cloudfront.net/eyJidWNrZXQiOiJhcHBsZXRyZWUtaW1hZ2VzLXYxIiwia2V5IjoiQXBwbGUgVHJlZS9mYXZpY29uLmljbyJ9",
+    "logo": "https://d3owavb6pntfxw.cloudfront.net/eyJidWNrZXQiOiJhcHBsZXRyZWUtaW1hZ2VzLXYxIiwia2V5IjoiQXBwbGUgVHJlZS9zbS1sb2dvLTEucG5nIn0=",
+    "logo_width": "120",
+    "logo_height": "48",
+    "logo_text": "Sutton Central Mosque",
+    "salah_type": 2
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Donate",
+    "link": "#donate"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "copyright": "© 2023, Sutton central mosque, 25 Carshalton Road, Sutton, Surrey, SM1 4LF | 07711 171661 / 07930 490117 | Charity Reg: 1114714"
+  },
+
+  "metadata": {
+    "meta_author": "",
+    "meta_image": "",
+    "meta_description": ""
+  }
+}

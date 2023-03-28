@@ -1,0 +1,28 @@
+{
+  "colors": {
+    "default": {
+      "theme_color": {
+        "primary": "#A19882",
+        "body": "#fff",
+        "border": "#F9DBBB",
+        "theme_light": "#E6DDC6"
+      },
+      "text_color": {
+        "default": "#777",
+        "dark": "#222"
+      },
+      "backgroundImage": "https://appletree-images-v1.s3.eu-west-1.amazonaws.com/Apple+Tree/psdd_03_06_2022_112.jpg"
+    }
+  },
+  "fonts": {
+    "font_family": {
+      "primary": "Prata:wght@300;400;700",
+      "primary_type": "sans-serif",
+      "secondary": "Prata:wght@300;400;700"
+    },
+    "font_size": {
+      "base": "16",
+      "scale": "1.250"
+    }
+  }
+}

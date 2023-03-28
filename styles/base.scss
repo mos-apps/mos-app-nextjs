@@ -1,0 +1,52 @@
+html {
+  @apply text-base;
+}
+
+body {
+  @apply bg-body font-primary font-normal leading-relaxed text-text;
+  // background-image: url("https://img.freepik.com/free-vector/eid-mubarak-lotus-background-vector_53876-85215.jpg");
+  background-image: url("https://d3owavb6pntfxw.cloudfront.net/eyJidWNrZXQiOiJhcHBsZXRyZWUtaW1hZ2VzLXYxIiwia2V5IjoiQXBwbGUgVHJlZS9iZy1zZWN0aW9uLWZlYXR1cmVkc2VybW9ucy5wbmcifQ==")
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary font-bold leading-tight text-dark;
+}
+
+h1,
+.h1 {
+  @apply font-primary text-h1-sm md:text-h1;
+}
+
+h2,
+.h2 {
+  @apply text-h2-sm md:text-h2;
+}
+
+h3,
+.h3 {
+  @apply text-h3-sm md:text-h3;
+}
+
+h4,
+.h4 {
+  @apply text-h4;
+}
+
+h5,
+.h5 {
+  @apply text-h5;
+}
+
+h6,
+.h6 {
+  @apply text-h6;
+}
+
+code {
+  @apply before:hidden after:hidden;
+}
