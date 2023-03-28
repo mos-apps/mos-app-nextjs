@@ -57,7 +57,7 @@ const Contact = ({ data }:any) => {
             </form>
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
-            {markdownify(info.title, "h4")}
+            {markdownify(info.title, "h4","")}
             {markdownify(info.description, "p", "mt-4")}
             <ul className="contact-list mt-5">
               {info.contacts.map((contact:any, index:any) => (

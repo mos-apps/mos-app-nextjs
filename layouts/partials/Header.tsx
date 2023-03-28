@@ -57,7 +57,7 @@ const Header = () => {
           }`}
         >
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">
-            {main.map((menu, i) => (
+            {main.map((menu:any, i:any) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
                   <li className="nav-item nav-dropdown group relative">
@@ -68,7 +68,7 @@ const Header = () => {
                       </svg>
                     </span>
                     <ul className="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
-                      {menu.children.map((child, i) => (
+                      {menu.children.map((child:any, i:any) => (
                         <li className="nav-dropdown-item" key={`children-${i}`}>
                           <Link
                             href={child.url}
