@@ -1,7 +1,8 @@
-<h1 align=center>Bigspring Light Nextjs</h1> 
-<p align=center>Bigspring is a web development business template built in Nextjs. Perfect for Creative Agency, Marketing Agency, Design Studios, Digital Marketing Agencies, and other business service websites.</p>
-<h2 align="center"> <a target="_blank" href="https://bigspring-light-nextjs.vercel.app/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbigspring-light-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)</a>
-</h2>
+<h1 align=center>MOS-APP-NEXTJS</h1> 
+<p align=center>MosApp is a web development mosque template built in Nextjs. Perfect for listing details about a mosque, its pryaer timings & other announcements.</p>
+
+<!-- <h2 align="center"> <a target="_blank" href="https://bigspring-light-nextjs.vercel.app/" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fbigspring-light-nextjs.vercel.app%2F&form_factor=desktop">Page Speed (100%)</a>
+</h2> -->
 
 
 
@@ -10,27 +11,24 @@
     <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
   </a>
 
-  <a href="https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE">
+  <a href="https://github.com/metacollective9/mos-app-nextjs">
     <img src="https://img.shields.io/github/license/themefisher/bigspring-light-nextjs" alt="license"></a>
 
-  <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-light-nextjs" alt="code size">
-
-  <a href="https://github.com/themefisher/bigspring-light-nextjs/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/themefisher/bigspring-light-nextjs" alt="contributors"></a>
+  <!-- <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-light-nextjs" alt="code size"> -->
+  
 </p>
 
-![bigspring-light](https://demo.gethugothemes.com/thumbnails/bigspring-light.png)
-👉🏻[View Live Preview](https://bigspring-light-nextjs.vercel.app/)
+![mos-app](https://appletree-images-v1.s3.eu-west-1.amazonaws.com/Apple+Tree/Screenshot+2023-03-29+at+16.00.42.png)
+👉🏻[View Live Preview](https://mos-app-nextjs.vercel.app/)
 
 <!-- download -->
 ## Download
 
-Download this template from [Github](https://github.com/themefisher/bigspring-light-nextjs/archive/main.zip)
+Download this template from [Github](https://github.com/metacollective9/mos-app-nextjs)
 
 ## Key Features
 - Simple and Minimal
 - Fully Responsive
-- Google Page Speed score 100! (Desktop)
 - Google analytics support
 - Caching enabled
 - Supports Contact Form
@@ -73,34 +71,11 @@ npm run build
 <!-- reporting issue -->
 ## Reporting Issues
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/themefisher/bigspring-light-nextjs/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/themefisher/bigspring-light-nextjs/issues).
+We use GitHub Issues as the official bug tracker for this Template. It’s possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/metacollective9/mos-app-nextjs/issues).
 
-<!-- support -->
-## Technical Support or Questions (Paid)
+## customization
 
-If you have questions or need help integrating the product please [contact us](https://themefisher.com/contact) instead of opening an issue.
-
-<!-- licence -->
-## License
-
-Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
-
-**Code License:** Released under the [MIT](https://github.com/themefisher/bigspring-light-nextjs/blob/main/LICENSE) license.
-
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-## Hire Us
-
-Besides developing unique, blazing-fast Nextjs templates, we also provide customized services. We specialize in creating affordable, high-quality static websites based on Nextjs.
-
-If you need to customize the theme or complete website development from scratch, you can hire us. **Check Our
-[Contact Page](https://themefisher.com/contact)**
-
-## Nextjs Templates By Us
-
-<a href="https://themefisher.com/products/bookworm-light-nextjs">
-<img src="https://demo.gethugothemes.com/thumbnails/bookworm.png" height="300" width="400"/>
-<p>Bookworm Light Nextjs</p>
-</a>
-
+* You can set theme color in `config/theme.json`
+* You can set menu items in `config/menu.json`
+* You can set various configs in `config/config.json`

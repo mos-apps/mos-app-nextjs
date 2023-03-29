@@ -7,6 +7,7 @@ import "styles/style.scss";
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { config as fConfig } from '@fortawesome/fontawesome-svg-core'
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 
 fConfig.autoAddCss = false
@@ -32,7 +33,7 @@ const App = ({ Component, pageProps }: any) => {
   };
   useEffect(() => {
     setTimeout(() => {
-      process.env.NODE_ENV === "production" &&
+      // process.env.NODE_ENV === "production" &&
         config.params.tag_manager_id &&
         TagManager.initialize(tagManagerArgs);
     }, 5000);
@@ -68,6 +69,7 @@ const App = ({ Component, pageProps }: any) => {
             content="width=device-width, initial-scale=1, maximum-scale=5"
           />
         </Head>
+        <GoogleAnalytics trackPageViews gaMeasurementId={config.params.ga_tag} />
         <Component {...pageProps} />
       </GoogleReCaptchaProvider>
       
