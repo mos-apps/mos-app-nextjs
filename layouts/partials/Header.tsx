@@ -1,6 +1,8 @@
 import Logo from "@components/Logo";
 import config from "@config/config.json";
 import menu from "@config/menu.json";
+import Modal from "@layouts/components/Modal";
+import moment from "moment";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
@@ -14,16 +16,22 @@ const Header = () => {
 
   // states declaration
   const [navOpen, setNavOpen] = useState(false);
+  const [showModal, setShowModal] = React.useState(true);
+
+  const handleClick = (id: string | number) => {
+    setShowModal(false);
+  };
 
   // logo source
   const { logo } = config.site;
+  const { title, content, enddate } = config.announcement;
   const { enable, label, link } = config.nav_button;
 
   return (
     <header className="header">
       <nav className="navbar container">
         {/* logo */}
-        <div className="order-0">
+        <div className="order-0" style={{marginTop: -15}}>
           <Logo src={logo} />
         </div>
 
@@ -116,6 +124,13 @@ const Header = () => {
           </div>
         )}
       </nav>
+      { showModal && moment(new Date()).isBefore(moment(enddate,"DD-MM-YYYY")) &&
+        <Modal
+          title={title}
+          body={content}
+          handleClick={handleClick}
+        />
+      }   
     </header>
   );
 };

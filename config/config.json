@@ -33,5 +33,11 @@
     "meta_author": "",
     "meta_image": "",
     "meta_description": ""
+  },
+
+  "announcement":{
+    "title": "Ramadan 2023 / 1444 AH",
+    "content": "The first fasting day of Ramadan will be on Thursday 23rd March. The first Taraweeh will be after the Isha Jamat (8PM) on Wednesday 22nd March.",
+    "enddate": "30-03-2023"
   }
 }
