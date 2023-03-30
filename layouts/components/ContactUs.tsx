@@ -153,7 +153,7 @@ const ContactUs = ({ contact_us, theme }: any) => {
             style={{ border: 0 }}
             loading="lazy"
             allowFullScreen={true}
-            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrReG9AkIdkgRkxIXmzNp3IA&key=AIzaSyDMlyH3I7TTQO_7OzVj06nhj9MsL0dXeO0"
+            src={`https://www.google.com/maps/embed/v1/place?q=place_id:ChIJrReG9AkIdkgRkxIXmzNp3IA&key=${process.env.GOOGLE_MAP_KEY}`}
           />
         </div>
       </div>
