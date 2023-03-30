@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/static/v1?label=NEXTJS&message=13.0&color=000&logo=nextjs" />
   </a>
 
-  <a href="https://github.com/metacollective9/mos-app-nextjs">
+  <a href="https://github.com/mos-apps/mos-app-nextjs">
     <img src="https://img.shields.io/github/license/themefisher/bigspring-light-nextjs" alt="license"></a>
 
   <!-- <img src="https://img.shields.io/github/languages/code-size/themefisher/bigspring-light-nextjs" alt="code size"> -->
@@ -24,7 +24,7 @@
 <!-- download -->
 ## Download
 
-Download this template from [Github](https://github.com/metacollective9/mos-app-nextjs)
+Download this template from [Github](https://github.com/mos-apps/mos-app-nextjs)
 
 ## Key Features
 - Simple and Minimal
@@ -72,7 +72,7 @@ npm run build
 ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for this Template. It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/metacollective9/mos-app-nextjs/issues).
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/mos-apps/mos-app-nextjs/issues).
 
 ## customization
 
